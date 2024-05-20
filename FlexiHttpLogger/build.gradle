@@ -11,7 +11,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        minSdk 16
+        minSdk 19
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -34,9 +34,9 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.core:core-ktx:1.13.1'
 
-    api 'com.github.projectdelta6:FlexiLogger:1.30'
+    api 'com.github.projectdelta6:FlexiLogger:1.31'
     api "com.squareup.okhttp3:logging-interceptor:4.12.0"
 
     testImplementation 'junit:junit:4.13.2'
