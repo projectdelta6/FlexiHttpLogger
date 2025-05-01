@@ -8,10 +8,10 @@ group = 'com.github.projectdelta6'
 
 android {
     namespace 'com.duck.flexilogger.flexihttplogger'
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
-        minSdk 19
+        minSdk 16
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -34,12 +34,12 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.core:core-ktx:1.16.0'
 
-    api 'com.github.projectdelta6:FlexiLogger:1.32'
+    api 'com.github.projectdelta6:FlexiLogger:1.34'
     api "com.squareup.okhttp3:logging-interceptor:4.12.0"
 
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 }
