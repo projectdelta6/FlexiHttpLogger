@@ -36,7 +36,7 @@ dependencies {
 
     implementation 'androidx.core:core-ktx:1.16.0'
 
-    api 'com.github.projectdelta6:FlexiLogger:1.34'
+    api 'com.github.projectdelta6:FlexiLogger:1.33'
     api "com.squareup.okhttp3:logging-interceptor:4.12.0"
 
     testImplementation 'junit:junit:4.13.2'
